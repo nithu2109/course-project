@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    background-color: #23233b;
+}
+.header{
+    min-height:100vh;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    min-height:10vh;
+    border-bottom: 1px solid #2E344E;
+    padding:0 15rem;
+    align-items: center;
+    background-color: #1D1D34;
+}
+h1{
+    font-size:4rem;
+}
+p{
+    line-height: 2.1rem;
+}
+a{
+    color: white;
+    font-size:inherit;
+    font-family: inherit;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-item{
+    margin: 0 1rem;
+}
+.logo{
+ width:50px;
+}
+.logo svg{
+    width:100%;
+}
+.cart{
+    width:50px;
+    position: relative;
+}
+.cart img{
+width:100%;
+}
+.small-title{
+    border-bottom: 2px solid #FE1A95;
+    display: inline-block;
+    padding-bottom: .4rem;
+    margin-bottom: 2rem;
+    font-weight: 500s;
+}
+.burger-menu img{
+    display: none;
+    width: 40px;
+}
+
+/* header content */
+.header-content{
+    min-height: 90vh;
+    width: 100%;
+    padding: 0 15rem;
+    display: grid;   
+    grid-template-columns: repeat(2,1fr);
+    background-image: url(./img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.left{
+    position: relative;
+}
+.left-content{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 97%;
+}
+.left-content h1{
+    font-size:2rem;
+}
+.left-content p{
+    padding: 1rem 0;
+}
+.name{
+    color: white;
+    opacity:0.6;
+    margin-bottom:2rem ;
+
+}
+
+.btn{
+    padding: .8rem 1rem;
+    text-transform: uppercase;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    display: inline-block;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.main-btn{
+    background-color: #FE1A95;
+}
+
+/* image */
+.right{
+    position: relative;
+}
+
+.right .hero{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    width: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+footer{
+    background-color: #181A38;
+    text-align: center;
+}
+footer p{
+    padding: 2rem 0;
+}
