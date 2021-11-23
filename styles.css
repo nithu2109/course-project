@@ -11,6 +11,7 @@ body{
     color: white;
     font-size: 1.2rem;
     background-color: #23233b;
+    overflow-x:hidden;
 }
 .header{
     min-height:100vh;
@@ -38,7 +39,7 @@ a{
 .nav-items{
     display: flex;
     align-items: center;
-    
+
 }
 .nav-item{
     margin: 0 1rem;
@@ -73,8 +74,8 @@ width:100%;
     min-height: 90vh;
     width: 100%;
     padding: 0 15rem;
-    display: grid;   
-    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    grid-template-columns:50% 50%;
     background-image: url(./img/bg.png);
     background-position: center;
     background-repeat: no-repeat;

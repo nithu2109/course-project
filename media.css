@@ -1,147 +1,73 @@
-/* @media screen and (max-width: 1421px){
-    .header-content{
-        padding: 0 10rem;
-    }
-
-    .navigation{
-        padding: 0 10rem;
-    }
- 
-} */
-
-/* @media screen and (max-width: 1328px){
-    .header-content{
-        grid-template-columns: repeat(0.5, 1fr);
-        
-    }
-
-     .hero{
-        display: none;
-    } 
-} */
-
-/* @media screen and (max-width: 982px){
-    .nav-items{
-        display: none;
-    }
-
-    .burger-menu img{
-        display: block;
-    }
-} */
-/* 
-@media screen and (max-width: 828px){
-    h1{
-        font-size: 3rem;
-    }
-   
-    
-} */
- /* @media screen and (max-width: 710px){
-    .navigation{
-        padding: 0 5rem;
-        
-    }
-    .header-content{
-        margin-bottom: 210px;
-    }
-    .logo svg{
-        background-color: aqua;
-    }
-    .right{
-        
-        
-        padding-right: 200px;
-        
-    }
-    
-    .right .hero{
-        padding-top: 100px;
-        width: 100%; 
-    }
-    
-}  */
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-   
-    .navigation{
-        padding :0 3rem;
-    }
+  .navigation{
+    padding :0 1rem;
+
+}
     .header-content{
-        margin-bottom: 190px;    
+        margin-bottom: 320px;
+        display: block;
+          padding: 0 2rem;
     }
     .nav-items{
         display: none;
     }
-    .left{
-        margin-left:-200px;
-    }
-    .right{
-        padding-right: 230px;
-        
-    }
-    .right img{
-     padding-top: 100px;
-    }
     .burger-menu img{
-        display: block;
-    }
+       display: block;
+   }
+   .right .hero{
+     top:600px;
+   }
+
+
+    /* .left{
+        margin-left:-200px;
+    } */
+
+
+
 }
- 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-   
-    .navigation{
-        padding: 0 5rem;    
-    }
-    .header-content{
-        margin-bottom: 190px;    
-    }
-    .left{
-        margin-left:-200px;
-    }
-    .right{
-        padding-right: 200px;
-    }
-     .right .hero{
-        padding-top: 100px;
-        width: 100%; 
-    }
-    .nav-items{
-        display: none;
-    }
-    .burger-menu img{
-        display: block;
-    }
-    
+  .navigation{
+    padding :0 5rem;
+  }
+  .nav-items{
+      display: none;
+  }
+  .burger-menu img{
+      display: block;
+  }
+  .header-content{
+    padding:0 2rem;
+    margin-bottom: 50px;
+  }
+
+
 }
- 
+
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
 
   .header-content{
-    margin-bottom: 270px;  }
-    .nav-items{
-        display: none;
-    }
+    padding: 0 10rem;
+   }
+  .nav-items{
+      display: none;
+  }
     .burger-menu img{
         display: block;
-    } 
-    /* .right{
-        padding-right: 200px; 
-    } */
+    }
      .right .hero{
         padding-top: 150px;
         padding-left: 30px;
-        width: 115%;
-        height:60%; 
-    } 
+    }
 }
 
 
- 
-/* Media Query for Laptops and Desktops 
+
+/* Media Query for Laptops and Desktops
 @media (min-width: 1025px) and (max-width: 1280px){
     body {
         background-color: green;
