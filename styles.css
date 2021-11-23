@@ -57,13 +57,7 @@ a{
 .cart img{
 width:100%;
 }
-.small-title{
-    border-bottom: 2px solid #FE1A95;
-    display: inline-block;
-    padding-bottom: .4rem;
-    margin-bottom: 2rem;
-    font-weight: 500s;
-}
+
 .burger-menu img{
     display: none;
     width: 40px;
@@ -81,20 +75,33 @@ width:100%;
     background-repeat: no-repeat;
     background-size: contain;
 }
-
+.header-content{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding:0 15rem;
+}
+.small-title{
+   border-bottom: 2px solid #FE1A95;
+   display: inline-block;
+   padding-bottom: .4rem;
+   margin-bottom: 2rem;
+   font-weight: 500s;
+}
 .left{
-    position: relative;
+  word-wrap: break-word;
 }
-.left-content{
-    position: absolute;
-    left: 0;
-    top: 10%;
-    width: 97%;
+.left h4{
+  margin-top: 30px;
 }
-.left-content h1{
+.right img{
+    margin-top: 100px;
+    width:100%;
+
+}
+.header-content h1{
     font-size:2rem;
 }
-.left-content p{
+.header-content p{
     padding: 1rem 0;
 }
 .name{
@@ -102,9 +109,13 @@ width:100%;
     opacity:0.6;
     margin-bottom:2rem ;
 
-}
+} */
 
 .btn{
+
+}
+.main-btn{
+    background-color: #FE1A95;
     padding: .8rem 1rem;
     text-transform: uppercase;
     font-size: inherit;
@@ -115,25 +126,6 @@ width:100%;
     border-radius: 6px;
     font-weight: 500;
 }
-
-.main-btn{
-    background-color: #FE1A95;
-}
-
-/* image */
-.right{
-    position: relative;
-}
-
-.right .hero{
-    position: absolute;
-    top: 15%;
-    right: 0;
-    width: 95%;
-}
-
-
-
 
 
 
